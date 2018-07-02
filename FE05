@@ -1,0 +1,147 @@
+1.1
+a)
+
+Age - Numeric
+Sex - Nominal
+CP - Nominal
+Trestbps - Numeric
+Col - Numeric
+Chol - Numeric
+FBS - Nominal
+Restecg - Nominal
+Thalach - Numeric
+Exang - Nominal
+Oldpeak - Numeric
+Slope - Nominal
+CA - Numeric
+Thal - Nominal
+Num - Nominal
+
+b)
+
+Age - 0
+Sex - 0
+CP - 0
+Trestbps - 0
+Col - 0
+Chol - 0
+FBS - 0
+Restecg - 0
+Thalach - 0
+Exang - 0
+Oldpeak - 0
+Slope - 0
+CA - 5
+Thal - 2
+Num - 0
+
+c)
+
+Age - Max: 77 Min: 29 Mean: 54.366 SD: 9.082
+Sex - Max: 207 Min: 96 Mean: -- SD: -- 
+CP - Max: 143 Min: 23 Mean: -- SD: --
+Trestbps - Max: 200 Min: 94 Mean: 131.624 SD: 17.538
+Col - Max: 1 Min: 0 Mean: 0.275 SD: 0.118
+Chol - Max: 564 Min: 126 Mean: 246.264 SD: 51.831
+FBS - Max: 258 Min: 45 Mean: -- SD: --
+Restecg - Max: 152 Min: 4 Mean: -- SD: --
+Thalach - Max: 202 Min: 71 Mean: 149.647 SD: 22.905
+Exang - Max: 204 Min: 99 Mean: -- SD: --
+Oldpeak - Max: 6.2000 Min: 0 Mean: 1.040 SD: 1.161
+Slope - Max: 142 Min: 21 Mean: -- SD: --
+CA - Max: 3 Min: 0 Mean: 0.674 SD: 0.938
+Thal - Max: 166 Min: 18 Mean: -- SD: -- 
+Num - Max: 165 Min: 138 Mean: -- SD: -- 
+
+d)
+
+Age - Sim
+Sex - Não
+CP - Não
+Trestbps - Sim
+Col - Sim
+Chol - Sim
+FBS - Não
+Restecg - Não
+Thalach - Sim
+Exang - Não
+Oldpeak - Sim
+Slope - Não
+CA - Não
+Thal - Não
+Num - Não
+
+e)
+
+Age - 
+Sex - 
+CP - 
+Trestbps - 
+Col - 
+Chol - 
+FBS - 
+Restecg - 
+Thalach - 
+Exang - 
+Oldpeak - 
+Slope - 
+CA - 
+Thal - 
+Num - 
+
+f)
+
+Age - Não existem outliers
+Sex - Não existem outliers
+CP - Não existem outliers
+Trestbps - Não existem outliers
+Col - Existe um outlier
+Chol - Existe um outlier
+FBS - Não existem outliers
+Restecg - Não existem outliers
+Thalach - Não existem outliers
+Exang - Não existem outliers
+Oldpeak - Não existem outliers
+Slope - Não existem outliers
+CA - Não existem outliers
+Thal - Não existem outliers
+Num - Não existem outliers
+
+2.
+a)
+
+Nos atributos "thalac", "cp" e "oldpeak" é possível verificar uma clara distinção entre padrões de valores, o que se traduz numa maior ligação à possibilidade de doença cardiaca.
+
+b)
+
+Os atributos "thalac", "cp" e "oldpeak".
+
+3.
+a)
+
+1.2 (Data Preparation)
+
+1.
+Foram usados os filtros AttributeSelection, 
+
+
+1.3 (Mining the Data)
+
+1.
+
+a) Podemos concluir que a classificação em qualquer um dos Datasets, quando são aplicados os filtros referidos o atributo usado na classificação é o 'thal' que já tinha sido indicado como relevante na secção 1.
+
+b) Com o uso do 'Cross-Validation' é registada uma melhoria na ordem dos 10% no que toca às instâncias corretamente classificadas.
+
+2.
+
+a) Com o uso de Pruning a percentagem de instâncias classificadas corretamente é significativamente maior do que a percentagem obtida quando não é utilizado pruning. Esta tendência verifica-se para qualquer um dos datasets.
+
+b) 
+
+3.
+
+a) Com o uso de Pruning a percentagem de instâncias classificadas corretamente é significativamente maior do que a percentagem obtida quando não é utilizado pruning. Esta tendência verifica-se para qualquer um dos datasets.
+
+b)
+

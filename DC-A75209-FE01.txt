@@ -1,0 +1,15 @@
+1
+
+Um exemplo de problema que pode ser enquadrado num processo de Data Mining, será o desenvolvimento de sistemas de recomendações que podem ser enquadrados num contexto específico, como por exemplo, supermercados ou motores de busca, e que tendo em conta comportamentos anteriores por parte dos utilizadores, e estudando esses comportamentos podem dar sugestões rápidas que interessam aos mesmos.
+
+1a
+
+A fase de Business Understanding consiste na definição do problema de data mining e na perseção dos objetivos que o projeto pretende alcançar, assim como os seus requisitos fundamentais.
+
+1b
+
+Na fase de Data Understanding é feita a coleta inicial de dados e a familiarização com os mesmos. São identificados os possíveis problemas que possam ser encontrados nos dados recolhidos. Por último, são retiradas as conclusões iniciais que se conseguirem, através apenas de uma observação inicial "informal".
+
+2
+
+É expectável que de um processo de Data Mining possam ser retiradas conclusões concretas acerca dos comportamentos num determinado problema através do estudo de experiências anteriores relacionadas com o contexto que está a ser estudado.

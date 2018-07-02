@@ -1,0 +1,32 @@
+INFORMAÇÃO DO DOENTE
+
+Nome -> Nominal
+Idade -> Numérico
+Tabaco -> Nominal (1 ou 0)
+Diabetes -> Nominal (1 ou 0)
+Imunossupressores -> Nominal (1 ou 0)
+Hipocoagulação -> Nominal (1 ou 0)
+QTx NA -> Nominal (1 ou 0)
+
+CIRURGIA
+
+Data Cx -> Nominal
+Cx -> Nominal (1 ou 0)
+Benígno/Maligno -> Nominal (1 ou 0)
+Diagnóstico ->  Nominal
+Lateralidade -> Nominal (1 ou 0)
+Intervenção Mamária -> Nominal
+Intervenção Axila -> Nominal
+Outras Intervenções -> Nominal
+
+PÓS-OPERATÓRIO/CIRURGIA
+
+Dias -> Numérico
+Antibióticos -> Nominal (1 ou 0)
+Hipocoagulação -> Nominal (1 ou 0)
+Data dx -> Nominal
+Dias Pós-Operatório -> Numérico
+Complicação -> Nominal
+Tratamento -> Nominal
+Dias Tx -> Númerico (NULO)
+Conclusão -> Nominal

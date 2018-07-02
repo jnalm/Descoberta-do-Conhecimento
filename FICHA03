@@ -1,0 +1,39 @@
+http://racing-reference.info/caract/W
+
+
+8)
+				races 				 wins 				 top_ten			 top_five			 poles 				 average_start 		 average_finish
+races	        1.0	                 0.6705537006224377	 0.875271497697644	 0.8008730851783662	 0.7528530097593285	-0.33088182485434287 -0.39906041448815355
+wins	        0.6705537006224377	 1.0	             0.878548072231315	 0.9467197759876942	 0.762282932034481	-0.4988797624869697	 -0.5679665186030513
+top_ten	        0.875271497697644	 0.878548072231315	 1.0	             0.971211183642503	 0.8604340488468134	-0.5874004666112396	 -0.6655943995573753
+top_five	    0.8008730851783662	 0.9467197759876942	 0.971211183642503	 1.0	             0.8553644815322407	-0.5835660707191892	 -0.658335402971298
+poles	        0.7528530097593285	 0.762282932034481	 0.8604340488468134	 0.8553644815322407	 1.0	            -0.5646997877285411	 -0.550509608852592
+average_start  -0.33088182485434287	-0.4988797624869697	-0.5874004666112396	-0.5835660707191892	-0.5646997877285411	 1.0	              0.9394394765259335
+average_finish -0.39906041448815355	-0.5679665186030513	-0.6655943995573753	-0.658335402971298	-0.550509608852592	 0.9394394765259335	  1.0
+
+As correlações entre 
+
+Races - Wins -> 0.671 (Correlação Forte) -> Não é surpreendente visto que é algo natural, um piloto com mais corridas ter mais vitórias e vice-versa.
+Races - Top Ten -> 0.875 (Correlação muito forte) -> Não surpreendente, visto que é natural um piloto quantas mais corridas tenha mais top 10 alcance e vice-versa.
+Races - Top Five -> 0.801 (Correlação muito forte) -> Não surpreendente, visto que é natural um piloto quantas mais corridas tenha mais top 5 alcance e vice-versa.
+Races - Poles -> 0.753 (Correlação forte) -> Não surpreendente, visto que é natural um piloto quantas mais corridas tenha mais pole-positions alcance e vice-versa.
+Races - Avg Start -> -0.331 (Sem correlação) -> Não surpreendente, visto que não existe nenhuma relação significativa entre a experiência do piloto em número de corridas e as posições em que arranca para a corrida. Um piloto como poucas corridas, pode alcançar bons resultados qualificatórios que um piloto experiente nunca alcançou, ou vice-versa.
+Races - Avg Finish -> -0.399 (Sem correlação) -> Não surpreendente, visto que não existe nenhuma relação significativa entre a experiência do piloto em número de corridas e as posições em que termina a corrida. Um piloto como poucas corridas, pode alcançar bons resultados finais que um piloto experiente nunca alcançou, ou vice-versa.
+Wins - Top Ten -> 0.879 (Correlação muito forte) -> Não surpreendente, visto que sendo a vitória um resultado classificado como top 10, é natural que os pilotos com mais vitórias tenham também mais top 10 e com menos vitórias menos top 10.
+Wins - Top Five -> 0.947 (Correlação muito forte) -> Não surpreendente, visto que sendo a vitória um resultado classificado como top 5, é natural que os pilotos com mais vitórias tenham também mais top 5 e com menos vitórias menos top 5.
+Wins - Poles -> 0.762 (Correlação Forte) -> Não surpreendente, visto que um piloto com mais vitórias é natural que tenha angariado mais pole-positions durante a sua carreira, dada a sua performance. Também é natural que um piloto com menos vitórias tenha menos pole-positions, significando um menor sucesso em termos de performance.
+Wins - Avg Start -> -0.499 (Alguma correlação) -> Não surpreendente, não é necessário um piloto partir dos lugares da frente para ganhar uma corrida, apesar de ajudar bastante. Não é garantido que uma boa média no que diz respeito à posição de partida, se tranduza em várias vitórias.
+Wins - Avg Finish -> -0.568 (Alguma correlação) -> Não surpreendente, só por um piloto ganhar várias corridas não quer dizer que não obtenha maus resultados noutras, "estragando" a média de posição de chegada. Assim como, não é necessário ganhar corridas para obter uma boa média de final de chegada.
+Top Ten - Top Five -> 0.971 (Correlação muito forte) -> Não surpreendente, sendo o top 5 uma classificação dentro do top 10, é natural que quantos mais top 5 um piloto alcance, mais top 10 consegue angariar.
+Top Ten - Poles -> 0.860 (Correlação muito forte) -> Não surpreendente, pois é natural alguém que consiga várias pole-positions ao longo da carreira registe também top 10 e vice-versa.
+Top Ten - Avg Start -> -0.587 (Alguma correlação) -> Não surpreendente, pois apesar de um piloto ter uma boa média de lugar de partida, não significa que o mesmo consiga traduzir essa prestação num top 10 final e vice-versa.
+Top Ten - Avg Finish -> -0.666 (Correlação Forte) -> Não surpreendente, pois quantos mais top 10 um piloto conseguir melhor média de chegada alcança. 
+Top Five - Poles -> 0.855 (Correlação muito forte) -> Não surpreendente, quem parte da pole-position é natural que tenha mais top 5 e vice-versa.
+Top Five - Avg Start -> -0.584 (Alguma correlação) -> Não surpreendente, pois apesar de um piloto ter uma boa média de lugar de partida, não significa que o mesmo consiga traduzir essa prestação num top 5 final e vice-versa.
+Top Five - Avg Finish -> -0.658 (Correlação Forte) -> Não surpreendente, pois quantos mais top 5 um piloto conseguir melhor média de chegada alcança.
+Poles - Avg Start -> -0.565 (Alguma correlação) -> Surpreendente, pois seria de esperar um correlação mais forte do que a alcançada. Normalmente quem parte mais vezes da pole-position é expectável que tenha um posição de partida melhor e vice-versa. No entanto um mau lugar alcançado numa qualificação pode "estragar" a média final.
+Poles - Avg Finish -> -0.551 (Alguma correlação) -> Surpreendente, pois seria de esperar um correlação mais forte do que a alcançada. Normalmente quem parte mais vezes da pole-position é expectável que tenha um posição de chegada melhor e vice-versa. No entanto um mau lugar alcançado no final da corrida pode "estragar" a média final.
+Avg Start - Avg Finish -> 0.939 (Correlação muito forte) -> Não surpreendente, um piloto com melhor ou pior posição de partida é natural que tenha melhor ou pior posição de chegado e vice-versa.
+
+Acrescentaria o número de voltas na carreira do piloto, e retiraria possivelmente o atributo average_start e average_finish, pois sãos os que apresentam as correlações mais fracas com os outros atributos.
+

@@ -1,0 +1,16 @@
+2.
+
+O objetivo com este Dataset, é tentar determinar se é possível ou não realizar o jogo de Golf, tendo em conta o tempo, a temperatura a humidade e o estado do vento. Existem 14 entradas no Dataset, cada uma caracterizada por 4 atributos: outlook, temperature, humidity, wind e target attribute chamado play. Os atributos temperature, humidity são numéricos e os atributos outlook, wind e play são nominais.
+
+5.
+
+No caso do valor de outlook ser outcast, a decisão de jogar foi sempre positiva, no caso de estar a chover, a decisão de jogar ou não baseou-se na presença de vento, ou não. Quando não há vento foi tomada a decisão de realizar o jogo, e quando há vento a decisão final, foi a de não realizar o jogo. Quando está sol, a decisão de jogar ou não foi baseada, na humidade. Quando a percentagem de humidade é superior 77.5% a decisão final foi a de não realizar o jogo, e sempre que a humidade foi inferior a esse valor, então a decisão final foi a de realizar a partida.
+
+6.
+
+            	true no		true yes	class precision
+pred. no	   	 5			   0			100.00%
+pred. yes	     0			   9			100.00%
+class recall	100.00%		100.00%
+
+A matriz confusão é apresentada acima, e podemos observar após uma análise sucinta que foi possível prever com uma precisão de 100% a realização ou não dos jogos de Golf, a partir dos casos usadas para aprendizagem. O algorítmo Decision Tree foi capaz de prever corretamente em 100% dos casos a decisão final de realizar a partida de Golf, mediante as condições metereológicas.
